@@ -465,6 +465,8 @@ header
 }
 
 .header-area .main-nav .logo img {
+  margin: -35px;
+  height: 61px;
   /* height: 5rem;
   border-radius: 100%; */
   /* border: 2px solid black; */
