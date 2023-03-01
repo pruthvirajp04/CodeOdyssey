@@ -856,6 +856,28 @@ welcome
 #videoBG {
   width: 100%;
 }
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: 1rem 1.75rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+#devfolio {
+  background-color: #3770ff;
+  padding: 7px 25px 7px 20px;
+  border-radius: 3.5px;
+  font-weight: 400;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
 .welcome-area {
   overflow: hidden;
   position: relative;
@@ -2248,3 +2270,6 @@ Sponsers Begins
   align-items: center;
   justify-content: center;
 } */
+#devfolio:hover{
+  color: white;
+}
