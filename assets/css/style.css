@@ -2273,3 +2273,10 @@ Sponsers Begins
 #devfolio:hover{
   color: white;
 }
+.goldsponsor img{
+  margin: 2.5rem;
+
+}
+.silversponsor img{
+  margin: 2.5rem;
+}
