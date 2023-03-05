@@ -2240,3 +2240,16 @@ Sponsers Begins
   justify-content: center;
   align-items: center;
 }
+.btn{
+  border: 2px solid black;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60%;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
