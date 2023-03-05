@@ -81,7 +81,7 @@
                 <li><a href="#prizes">Prizes</a></li>
                 <li><a href="#schedule">Schedule</a></li>
 
-                <li><a href="#sponsers">Sponsors</a></li>      
+                <li><a href="#sponsors">Sponsors</a></li>      
                 <li><a href="#faqs">FAQ'S</a></li>
                 <li><a href="#contact-us">Contact</a></li>
                 <!-- <li><a href="#">Register</a></li> -->
@@ -283,7 +283,9 @@
               hours to innovate and show us what you got!
             </p>
           </div>
-          <div class="about__img"></div>
+          <div class="" >
+            <img src="./assets/images/about.jpg" alt="" style= "height: 12rem;">
+          </div>
         </div>
 
         <div class="about__stats" id="prizes">
@@ -527,29 +529,32 @@
     <!-- ***** Timeline End ***** -->
 
     <!-- ***** Sponsers Start ***** -->
-    <section class="section">
-      <h2 class="section__title_s sponser__title" id="sponsers">Sponsors</h2>
+    <section class="section" id="sponsors">
+      <h2 class="section__title_a section__title_a--right schedule__title">
+        Sponsors
+      </h2>
+   
       <!-- <div>
         <img class="sponser-bg" src="./assets/images/sponser-bg2.svg"/>
       </div> -->
       <div class="sponser__wrapper">
         <div class="sponser__stats">
         
-          <div class="sponser__card sponser__card--variant-2 goldsponsor">
-            <h4 class="card-title__G">Gold</h4>
-            <p class="card-title">sponsors here..</p>
+          <div class="sponser__card--variant-2 goldsponsor">
+            <h4 class="goldtitle">Gold</h4>
+            <!-- <p class="card-title">sponsors here..</p> -->
             <img src="./assets/images/Devfolio_Logo-Colored.png" alt="">
-            <img src="./assets/images/Polygon_Logo-Colored@2x.png" style="height: 4rem;" alt="">
+            <img src="./assets/images/Polygon_Logo-Colored@2x.png" >
 
             <br>
             <!-- <img src="./assets/images/Devfolio_Logo-Colored.png" alt=""> -->
           </div>
           <div class="sponser__card sponser__card--variant-3 silversponsor">
-            <h4 class="card-title__S">Silver</h4>
-            <p class="card-title">sponsors here..</p>
-            <img src="./assets/images/Filecoin Coloured White Text.png" style="height: 4rem; width: 20rem;" alt="">
-            <img src="./assets/images/Replit-light-background.png"  style="height: 4rem;"alt="">
-            <img src="./assets/images/Solana-Colored.png" style="height: 4rem; width: 20rem;" alt="">
+            <h4 class="silvertitle">Silver</h4>
+            <!-- <p class="card-title">sponsors here..</p> -->
+            <img src="./assets/images/Filecoin Coloured White Text.png">
+            <img src="./assets/images/Replit-light-background.png"  >
+            <img src="./assets/images/Solana-Colored.png" >
 
 
           </div>
@@ -558,7 +563,9 @@
           <div class="venue__stats">
             <div class="venue__card venue__card--variant-1">
               <h4 class="card-title">Venue</h4>
-              <p class="card-subtitle">K. J. Somaiya Institute Of Technology, Sion, Mumbai - 400022</p>
+              <p class="card-subtitle">KJSIT- Sion</p>
+              
+
             </div>
             <div class="venue__card venue__card--variant-1">
               <h4 class="card-subtitle">Food</h4>
@@ -768,9 +775,9 @@
         </div>
         <!-- ***** Section Title End ***** -->
         
-        <div class="row">
+        <div class="row contactbox">
           <!-- ***** Contact Text Start ***** -->
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 ">
             <!-- <h5 class="margin-bottom-30">Keep in touch</h5> -->
             <div class="contact-text">
               <p style="font-size: 1.5rem; color: black; font-weight: bold;">
@@ -787,70 +794,9 @@
                 Delzeen Machhi - +91 80974 52170 <br>
                 Ronit Bhamere - +91 84529 93045
               </p>
-              <p>
-                Or shoot a message directly from here ....
-              </p>
+             
             </div>
-          </div>
-          <!-- ***** Contact Text End ***** -->
-
-          <!-- ***** Contact Form Start ***** -->
-          <div class="col-lg-8 col-md-6 col-sm-12">
-            <div class="contact-form">
-              <form  name="contact" action="https://formspree.io/f/moqrvnaa" method ="POST" >               
-                <div class="row">
-                  <div class="col-lg-6 col-md-12 col-sm-12">
-                    
-                      <input
-                        name="name"
-                        type="text"
-                        class="form-control"
-                        id="name"
-                        placeholder="Full Name"
-                        required=""
-                      />
-                   
-                  </div>
-                  <div class="col-lg-6 col-md-12 col-sm-12">
-                    <!-- <fieldset> -->
-                      <input
-                        name="email"
-                        type="email"
-                        class="form-control"
-                        id="email"
-                        placeholder="E-Mail Address"
-                        required=""
-                      />
-                    <!-- </fieldset> -->
-                  </div>
-                  <div class="col-lg-12">
-                    <!-- <fieldset> -->
-                      <textarea
-                        name="message"
-                        rows="6"
-                        class="form-control"
-                        id="message"
-                        placeholder="Your Message"
-                        required=""
-                      ></textarea>
-                    <!-- </fieldset> -->
-                  </div>
-                
-                  <div class="col-lg-12">                    
-                      <button
-                        id="form-submit"
-                        class="main-button"
-                        type="submit"
-                      >
-                        Send Message
-                      </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          <!-- ***** Contact Form End ***** -->
-        </div>
+       
       </div>
     </section>
     <!-- ***** Contact Us End ***** -->
@@ -862,14 +808,14 @@
           <div class="col-lg-12 col-md-12 col-sm-12">
             <ul class="social">
               <li>
-                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.instagram.com/csi_kjsit/"><i class="fa fa-instagram"></i></a>
               </li>
             
               <li>
-                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/kjsieit/"><i class="fa fa-facebook"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/csi-kjsieit-student-s-chapter/mycompany/"><i class="fa fa-linkedin"></i></a>
               </li>
               <li>
                 <!-- <a href="#"><i class="fa fa-dribbble"></i></a> -->
@@ -903,7 +849,7 @@
 
     <!-- Scrpt for Countdown timer -->
     <script>
-      var dest = new Date("april 8, 2023 10:00:00").getTime();
+      var dest = new Date("april 8, 2023 09:00:00").getTime();
 
       var x = setInterval(function () {
         var present = new Date().getTime();

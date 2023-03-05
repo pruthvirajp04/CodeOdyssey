@@ -1,26 +1,6 @@
-/* font-family: 'Dancing Script', cursive; */
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. welcome
-06. features
-07. team
-08. pricing
-09. blog
-10. contact
-11. footer
-12. preloader
 
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 /* 
 ---------------------------------------------
@@ -884,7 +864,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url("../images/Frame\ 1\ \(1\).png"); */
+  background-image: url("../images/logo.jpg");
   background-color: #e5e5e5;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1983,85 +1963,11 @@ CountDown Begins
 Sponsers Begins
 --------------------------------------------- 
 */
-
-.section__title_s {
-  font-family: "Bungee Shade", cursive;
-  font-size: 3rem;
-  color: #414141;
-  text-align: left;
-  margin-bottom: 3rem;
-  margin-left: 2rem;
+.sponser__stats, .sponser__card{
+  display: flex;
+  flex-direction: column;
 }
 
-.center-heading .subhead-title {
-  font-size: 20px;
-  color: #777;
-  margin-bottom: 30px;
-}
-.sponser__wrapper {
-  display: grid;
-  gap: 0rem;
-}
-
-.sponser__content {
-  display: grid;
-  gap: 2rem;
-}
-
-.sponser__stats {
-  display: grid;
-  place-items: center;
-  gap: 3rem;
-}
-
-.sponser__card {
-  padding: 2rem 0;
-  display: grid;
-  gap: 0.5rem;
-  place-items: center;
-  border-radius: 15px;
-  width: 95%;
-}
-
-.sponser__card h4,
-.sponser__card p {
-  margin: 0;
-}
-
-.sponser__card .card-title__D {
-  font-family: "Bungee", cursive;
-  font-weight: 400;
-  font-size: 3rem;
-  color: #00beca;
-}
-.sponser__card .card-title__G {
-  font-family: "Bungee", cursive;
-  font-weight: 400;
-  font-size: 3rem;
-  color: #ffbe0b;
-}
-
-.sponser__card .card-title__S {
-  font-family: "Bungee", cursive;
-  font-weight: 400;
-  font-size: 3rem;
-  color: #afafaf;
-}
-
-.sponser__card p {
-  font-weight: 500;
-  font-size: 1.25rem;
-}
-
-.sponser__card--variant-1 {
-  border: 3.5px solid #00beca;
-}
-.sponser__card--variant-2 {
-  border: 3.5px solid #ffbe0b;
-}
-.sponser__card--variant-3 {
-  border: 3.5px solid #afafaf;
-}
 
 .venue__wrapper {
   display: grid;
@@ -2273,10 +2179,57 @@ Sponsers Begins
 #devfolio:hover{
   color: white;
 }
+@media (min-width: 0px) and (max-width: 600px)
+{
+
+  .goldsponsor img{
+    width: 80%;
+    height: 7rem;
+    margin: 2.5rem;
+  
+  }
+  .silversponsor img{
+    width: 80%;
+    height: 7rem;
+    
+    margin: 2.5rem;
+
+  }
+}
+.goldsponsor, .silversponsor{
+  border-radius: 12px;
+  margin: 3rem;
+  /* pad: 2rem; */
+  /* border: 3.5px solid #ffbe0b; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.silvertitle{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  color: rgb(199, 186, 186);
+}
 .goldsponsor img{
+  /* width: 30%; */
+  height: 5rem;
   margin: 2.5rem;
 
 }
 .silversponsor img{
-  margin: 2.5rem;
+   /* width: 30%; */
+   height: 4rem;
+   margin: 2.5rem;
+}
+.contactbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goldtitle{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  color: rgb(123, 109, 31);
 }
