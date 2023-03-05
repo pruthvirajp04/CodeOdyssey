@@ -435,21 +435,16 @@ header
 }
 
 .header-area .main-nav .logo {
-  float: left;
-  margin-top: 37px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  margin-left: 30px;
+ width: 75px;
+ height: 75px;
+
 }
 
+
 .header-area .main-nav .logo img {
-  margin: -35px;
-  height: 61px;
-  /* height: 5rem;
-  border-radius: 100%; */
-  /* border: 2px solid black; */
+  margin: -5px;
+  height: 84px;
+  width: 200px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
