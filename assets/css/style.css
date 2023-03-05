@@ -2260,7 +2260,8 @@ Sponsers Begins
   border: 2px solid black;
   border-radius: 12px;
   display: flex;
-
+  margin-left: 11rem;
+  margin-top: 1rem;
   font-family: sans-serif;
   font-weight: bold;
   justify-content: center;
