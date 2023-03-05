@@ -28,7 +28,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
     <title>Code Odyssey</title>
 
     <!-- Additional CSS Files -->
@@ -110,9 +110,13 @@
               </video> -->
               <!-- <img id="videoBG" src="./assets/images/code.jpeg" /> -->
               <!-- <p style="color: rgb(79, 81, 211);">Offline Hackathon conducted by CSI-KJSIT</p> -->
-              <a href="https://code-odyssey-2.devfolio.co/" class="button button--flex" id="devfolio">
-                <img src="./assets/images/dev.png"/ style="width: 22px; margin-right: -5px; ">Apply with Devfolio<!--<i class="ri-arrow-right-down-line button__icon"></i> -->
-            </a>
+                              <div 
+                  class="apply-button" 
+                  data-hackathon-slug="hackhound" 
+                  data-button-theme="dark"
+                  style="height: 44px; width: 312px"
+                ></div>
+               
             </div>
           </div>
         </div>
@@ -228,6 +232,7 @@
 
     <!-- ***** Domain Start ***** -->
     <section class="section domain">
+   
       <h2 class="section__title_d domain__title" id="domains">Domains</h2>
       <div>
         <img class="countdown-bg" src="./assets/images/block1.png" />
@@ -559,7 +564,7 @@
 
           </div>
         </div>
-        <div class="venue__wrapper">
+        <!-- <div class="venue__wrapper">
           <div class="venue__stats">
             <div class="venue__card venue__card--variant-1">
               <h4 class="card-title">Venue</h4>
@@ -576,7 +581,7 @@
               <p class="card-title">Tech..</p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- ***** Sponsers End ***** -->

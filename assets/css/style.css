@@ -2196,6 +2196,12 @@ Sponsers Begins
 
   }
 }
+.goldsponsor{
+  border: 3px solid gold;
+}
+.silversponsor{
+  border: 3px solid silver;
+}
 .goldsponsor, .silversponsor{
   border-radius: 12px;
   margin: 3rem;
