@@ -442,9 +442,9 @@ header
 
 
 .header-area .main-nav .logo img {
-  margin: -5px;
-  height: 84px;
-  width: 200px;
+    margin: -5px;
+    height: 84px;
+    width: 200px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -859,7 +859,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/cY.png");
+  background-image: url("../images/cyy.png");
   background-color: #e5e5e5;
   background-repeat: no-repeat;
   background-position: center center;
