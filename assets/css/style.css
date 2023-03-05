@@ -2260,7 +2260,7 @@ Sponsers Begins
   border: 2px solid black;
   border-radius: 12px;
   display: flex;
-  color: red;
+
   font-family: sans-serif;
   font-weight: bold;
   justify-content: center;
@@ -2269,7 +2269,13 @@ Sponsers Begins
   height: 60%;
   background-color: black;
   color: white;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
 }
 .btndisc:hover{
 
+}
+.apply-button{
+  margin-top: 7rem;
 }
