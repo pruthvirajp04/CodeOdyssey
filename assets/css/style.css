@@ -864,7 +864,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/Artboard\ 3.png");
+  background-image: url("../images/cY.png");
   background-color: #e5e5e5;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2235,7 +2235,13 @@ Sponsers Begins
   align-items: center;
 }
 .goldtitle{
+ 
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   color: rgb(123, 109, 31);
+}
+.silvertitle, .goldtitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
