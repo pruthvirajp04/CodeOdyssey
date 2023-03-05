@@ -615,7 +615,7 @@ header
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .header-area {
     padding: 0px 15px;
     height: 80px;
@@ -669,7 +669,7 @@ header
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
@@ -920,7 +920,9 @@ welcome
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: none;
+    /* background-image: none; */
+  background-image: url("../images/moblieimg.jpg");
+
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
