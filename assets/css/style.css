@@ -450,9 +450,9 @@ header
 
 
 .header-area .main-nav .logo img {
-    margin: -5px;
-    height: 84px;
-    width: 200px;
+    /* margin: -5px; */
+    height: 76px;
+    width: 76px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
