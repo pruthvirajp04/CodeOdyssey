@@ -2281,7 +2281,7 @@ Sponsers Begins
   color: white;
   justify-content: center;
   align-items: center;
-  width: 15rem;
+  /* width: 15rem; */
 }
 .btndisc:hover{
 
