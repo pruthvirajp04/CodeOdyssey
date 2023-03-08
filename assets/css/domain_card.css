@@ -285,3 +285,14 @@ FAQ Starts
     margin-left: 0rem;
   }
 }
+.absbox{
+  display: flex;
+  flex-direction: column;
+  
+}
+.absbox p{
+  margin: 1rem;
+}
+.absbox p li{
+  margin: 3rem  !important;
+}
