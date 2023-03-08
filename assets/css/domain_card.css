@@ -37,7 +37,8 @@ Domain Starts
     gap: 0.5rem;
     place-items: center;
     border-radius: 15px;
-    width: 96%;
+    width: 100%;
+    height: 100%;
   }
   
   .domain__card h4,
