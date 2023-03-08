@@ -862,8 +862,8 @@ welcome
   column-gap: 0.5rem;
 }
 .welcome-area {
-  overflow: hidden;
-  position: relative;
+  /* overflow: hidden; */
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -873,7 +873,7 @@ welcome
   background-position: center center;
   background-size: cover;
   height: 100vh;
-  width: auto;
+  /* width: auto; */
 }
 
 .welcome-area .header-text {
