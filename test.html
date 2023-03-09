@@ -1,27 +1,80 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title of the document</title>
-    <style>
-      .main {
-        border: 1px solid #4287f5;
-        float: left;
-        height: 180px;
-        width: 500px;
-        position: relative;
-      }
-  
-      #bottom {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="main">
-
-      <div id="bottom">Bottom Content Div1</div>
-    </div>
-  </body>
-</html>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Schedule</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section class="hero">
+      <h1>Welcome to Our Gym</h1>
+      <p>Get fit and healthy with our world-class facilities and trainers</p>
+      <a href="#" class="btn-primary">Join Us</a>
+    </section>
+    
+    <section class="services">
+      <h2>Our Services</h2>
+      <p>We offer a wide range of services to help you achieve your fitness goals</p>
+      <div class="service-box">
+        <img src="img/service-1.jpg" alt="Service 1">
+        <h3>Personal Training</h3>
+        <p>Get personalized training sessions with our expert trainers</p>
+      </div>
+      <div class="service-box">
+        <img src="img/service-2.jpg" alt="Service 2">
+        <h3>Group Classes</h3>
+        <p>Join our group classes and work out with like-minded individuals</p>
+      </div>
+      <div class="service-box">
+        <img src="img/service-3.jpg" alt="Service 3">
+        <h3>Nutrition Counseling</h3>
+        <p>Get personalized nutrition counseling to complement your workout</p>
+      </div>
+    </section>
+    
+    <section class="schedule">
+      <h2>Class Schedule</h2>
+      <p>Check out our class schedule to see when your favorite classes are happening</p>
+      <table>
+        <tr>
+          <th>Class Name</th>
+          <th>Day</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td>Yoga</td>
+          <td>Monday</td>
+          <td>10:00am - 11:00am</td>
+        </tr>
+        <tr>
+          <td>Zumba</td>
+          <td>Wednesday</td>
+          <td>6:00pm - 7:00pm</td>
+        </tr>
+        <tr>
+          <td>CrossFit</td>
+          <td>Friday</td>
+          <td>5:00pm - 6:00pm</td>
+        </tr>
+      </table>
+    </section>
+    
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <p>Choose from our flexible pricing options to find the one that fits your budget and fitness goals</p>
+      <div class="price-box">
+        <h3>Basic</h3>
+        <p>Access

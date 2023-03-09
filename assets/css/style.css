@@ -451,6 +451,7 @@ header
 
 .header-area .main-nav .logo img {
     /* margin: -5px; */
+    float: left;
     height: 76px;
     width: 76px;
   -webkit-transition: all 0.3s ease 0s;
