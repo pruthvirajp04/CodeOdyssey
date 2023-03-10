@@ -8,7 +8,7 @@ Domain Starts
     font-size: 4rem;
     font-family: "Bungee Shade", cursive;
     color: #414141;
-    text-align: right;
+    text-align: center;
   }
   .center-heading .subhead-title{
     font-size: 20px;
@@ -197,7 +197,7 @@ Domain Starts
         font-size: 3rem;
         font-family: "Bungee Shade", cursive;
         color: #414141;
-        text-align: right;
+        text-align: center;
       }
   }
   @media screen and (max-width: 540px) {
