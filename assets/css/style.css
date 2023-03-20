@@ -146,20 +146,6 @@ h6 {
   margin-bottom: 0px;
 }
 
-/* @media (min-width:800px) { */
-
-  .newNav{
-    display: flex;
-    flex-direction: column;
-  }
-  .imgBox{
-    display: flex;
-    justify-content: space-between;
-  }
-  .imgBox img{
-    margin: 1rem;
-  }
-/* } */
 ul {
   margin-bottom: 0px;
 }
@@ -467,7 +453,7 @@ header
     /* margin: -5px; */
     float: left;
     height: 76px;
-    width: 76px;
+    width: 8rem;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
