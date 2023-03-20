@@ -464,7 +464,7 @@ header
   float: right;
   margin-top: 27px;
   margin-left: 0px;
-  margin-right: 30px;
+  margin-right: 10px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -474,8 +474,8 @@ header
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -485,7 +485,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 11px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
