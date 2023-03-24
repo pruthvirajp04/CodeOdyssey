@@ -938,7 +938,7 @@ welcome
     align-items: center;
     justify-content: center;
     /* background-image: none; */
-  background-image: url("../images/moblieimg.jpg");
+  background-image: url("../images/Website\ Landing\ Mobile-06.jpg");
 
     background-repeat: no-repeat;
     background-position: center center;
@@ -2304,7 +2304,4 @@ Sponsers Begins
   justify-content: center;
   align-items: center;
   /* width: 15rem; */
-}
-.btndisc:hover{
-
 }
