@@ -434,7 +434,7 @@ header
 }
 
 .header-area .main-nav {
-  margin-top: 7rem;
+  margin-top: 6rem;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
   min-height: 80px;
@@ -874,7 +874,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/cyy.png");
+  background-image: url("../images/Website\ Landing\ Web-05.jpg");
   background-color: #e5e5e5;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2301,7 +2301,12 @@ Sponsers Begins
   height: 60%;
   background-color: black;
   color: white;
+  font-weight: 900;
   justify-content: center;
   align-items: center;
   /* width: 15rem; */
+}
+.btndisc:hover{
+  background-color: black;
+  color: white;
 }
