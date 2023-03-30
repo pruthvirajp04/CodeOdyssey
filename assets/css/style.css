@@ -434,7 +434,7 @@ header
 }
 
 .header-area .main-nav {
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
   min-height: 80px;
@@ -468,7 +468,7 @@ header
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: 27px;
+  /* margin-top: 27px; */
   margin-left: 0px;
   margin-right: 7rem;
   -webkit-transition: all 0.3s ease 0s;
@@ -879,7 +879,7 @@ welcome
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 50rem;
   /* margin-top: 1rem; */
   /* width: auto; */
 }
@@ -2292,17 +2292,21 @@ Sponsers Begins
   border-radius: 12px;
   display: flex;
   /* margin-left: 11rem; */
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
   font-family: sans-serif;
   font-weight: bold;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 30%;
-  background-color: #8e7d7d;;
-  color: white;
+  height: 3rem;
+  background-color: white;;
+  color: black;
   font-weight: 900;
   justify-content: center;
   align-items: center;
   /* width: 15rem; */
+}
+.btndisc:hover{
+  color: black;
+  background-color: #ccb4b4;
 }
