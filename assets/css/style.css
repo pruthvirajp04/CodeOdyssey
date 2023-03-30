@@ -434,7 +434,7 @@ header
 }
 
 .header-area .main-nav {
-  margin-top: 4rem;
+  /* margin-top: 47px; */
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
   min-height: 80px;
@@ -447,6 +447,8 @@ header
 
 }
 @media (min-width:800px) {
+  .header-area .main-nav {
+    margin-top: 9rem;}
   .header-area .main-nav .logo img{
     margin-left: 5rem;
   }
@@ -466,7 +468,7 @@ header
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: 47px;
+
   margin-left: 0px;
   margin-right: 10px;
   -webkit-transition: all 0.3s ease 0s;
@@ -868,19 +870,18 @@ welcome
 .welcome-area {
   /* overflow: hidden; */
   /* position: relative; */
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  justify-content: center;
-  background-image: url("../images/CO2\ Web-05.png");
-  background-color: #e5e5e5;
-  background-repeat: no-repeat;
-  background-position: center center;
+  /* justify-content: center; */
+  background-image: url(../images/CO2\ Web-05.png);
+  /* background-color: #e5e5e5; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
   background-size: cover;
-  height: 50rem;
+  height: 963px;
   /* margin-top: 1rem; */
-  /* width: auto; */
+  /* width: 1700px; */
 }
-
 .welcome-area .header-text {
   position: absolute;
   top: 50%;
