@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 /* 
@@ -874,7 +874,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/Website\ Landing\ Web-05.jpg");
+  background-image: url("../images/CO2\ Web-05.png");
   background-color: #e5e5e5;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2292,7 +2292,7 @@ Sponsers Begins
   border-radius: 12px;
   display: flex;
   /* margin-left: 11rem; */
-  margin-top: 7rem;
+  margin-top: 6rem;
   font-family: sans-serif;
   font-weight: bold;
   justify-content: center;
