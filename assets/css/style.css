@@ -421,7 +421,7 @@ header
 --------------------------------------------- 
 */
 .header-area {
-  /* position: fixed; */
+  position: fixed;
   top: 30px;
   left: 0px;
   right: 0px;
@@ -434,7 +434,7 @@ header
 }
 
 .header-area .main-nav {
-  /* margin-top: 6rem; */
+  margin-top: 3.2rem;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
   min-height: 80px;
@@ -446,19 +446,6 @@ header
  height: 75px;
 
 }
-
-
-.header-area .main-nav .logo img {
-    /* margin: -5px; */
-    float: left;
-    height: 76px;
-    width: 80px;
-    
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
 @media (min-width:800px) {
   .header-area .main-nav .logo img{
     margin-left: 5rem;
@@ -466,11 +453,22 @@ header
   
 }
 
+.header-area .main-nav .logo img {
+    /* margin: -5px; */
+    float: left;
+    height: 76px;
+    width: 80px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 .header-area .main-nav .nav {
   float: right;
-  /* margin-top: 27px; */
+  margin-top: 47px;
   margin-left: 0px;
-  margin-right: 7rem;
+  margin-right: 10px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -689,7 +687,6 @@ header
     display: flex !important;
   }
 }
-
 /* 
 ---------------------------------------------
 Tracks
@@ -2297,16 +2294,28 @@ Sponsers Begins
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 40%;
   height: 3rem;
   background-color: white;;
   color: black;
   font-weight: 900;
   justify-content: center;
   align-items: center;
+  /* position: absolute;
+  left: 30px;
+  top: 200px;
+  right: 0;
+  bottom: 0; */
   /* width: 15rem; */
 }
 .btndisc:hover{
   color: black;
   background-color: #ccb4b4;
+}
+.buttonBox1{
+  margin-top: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
