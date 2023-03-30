@@ -2294,7 +2294,7 @@ Sponsers Begins
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 20rem;
   height: 3rem;
   background-color: white;;
   color: black;
@@ -2313,7 +2313,8 @@ Sponsers Begins
   background-color: #ccb4b4;
 }
 .buttonBox1{
-  margin-top: 40rem;
+  padding: 1rem;
+  margin-top: 35rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
