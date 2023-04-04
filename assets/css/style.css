@@ -448,7 +448,8 @@ header
 }
 @media (min-width:800px) {
   .header-area .main-nav {
-    margin-top: 9rem;}
+    /* margin-top: 9rem; */
+  }
   .header-area .main-nav .logo img{
     margin-left: 5rem;
   }
@@ -873,7 +874,7 @@ welcome
   /* display: flex; */
   align-items: center;
   /* justify-content: center; */
-  background-image: url(../images/CO2\ Web-05.png);
+  background-image: url(../images/cY.png);
   /* background-color: #e5e5e5; */
   /* background-repeat: no-repeat; */
   /* background-position: center center; */
@@ -936,7 +937,7 @@ welcome
     align-items: center;
     justify-content: center;
     /* background-image: none; */
-  background-image: url("../../Document_1.jpg");
+  background-image: url("../images/moblieimg.jpg");
 
     background-repeat: no-repeat;
     background-position: center center;
